@@ -12,9 +12,10 @@ marker = True
 for i in False,True:
     for j in False,True:
         for k in False,True:
-            if(test(True,False,False)!=True):
+            if(test(i,j,k)!=True):
                 marker = False
 
 print(marker)
 
+print(test(True,False,True))
 #Не очень понял что именно надо было подавать на вход
