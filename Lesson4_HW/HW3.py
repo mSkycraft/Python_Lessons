@@ -13,7 +13,6 @@ def Result_table(lst:list):
                 matrix[score[i]]= [1,0,0,0,0]
             else:
                 matrix[score[i]][0] += 1
-
             if(score[i+1]>score[i-1]):
                 matrix[score[i]][1] += 1
                 matrix[score[i]][4] += 3
