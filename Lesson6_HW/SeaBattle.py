@@ -2,8 +2,6 @@ import numpy as np
 import random as rnd
 import os
 
-
-
 map1 = np.zeros((3,3))
 map1Result = np.zeros((3,3))
 map2 = np.zeros((3,3))

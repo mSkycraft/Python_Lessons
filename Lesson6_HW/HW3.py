@@ -1,10 +1,4 @@
-from itertools import chain, count
-from math import fabs
-from unittest import result
-
-
 st = 'AAAAAAADDDDDDDDDDSBBBBBBEFAS'
-
 def arh(ls):
     char = None
     count = 0
@@ -21,10 +15,6 @@ def arh(ls):
             count = 1
     result += char + str(count)
     return result
-
-print(st)
-print(arh(st))
-
 
 def unarh(ls:list):
     char = None
@@ -49,5 +39,6 @@ def unarh(ls:list):
             number = ''
     return result
 
-
+print(st)
+print(arh(st))
 print(unarh(arh(st)))
